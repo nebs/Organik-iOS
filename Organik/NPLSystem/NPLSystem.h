@@ -32,6 +32,7 @@
 // Step through numSteps number of steps from the current iteration
 - (void)stepThrough:(NSUInteger)numSteps;
 
+// Returns the symbols string for the given iteration (and computes the iteration if needed)
 - (NSString *)symbolsForIteration:(NSUInteger)index;
 
 @end
