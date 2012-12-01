@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		807C5F99165851F600BF8CA1 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C5F98165851F600BF8CA1 /* UIColor+Random.m */; };
+		808FB0BB166A7A080052EE69 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 808FB0B1166A7A080052EE69 /* UIColor+Random.m */; };
+		808FB0BC166A7A080052EE69 /* NPLSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 808FB0B4166A7A080052EE69 /* NPLSystem.m */; };
+		808FB0BD166A7A080052EE69 /* NPLSystemLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 808FB0B6166A7A080052EE69 /* NPLSystemLibrary.m */; };
+		808FB0BE166A7A080052EE69 /* NPLSystemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 808FB0B8166A7A080052EE69 /* NPLSystemView.m */; };
+		808FB0BF166A7A080052EE69 /* NPTurtle.m in Sources */ = {isa = PBXBuildFile; fileRef = 808FB0BA166A7A080052EE69 /* NPTurtle.m */; };
 		80AD2D5116501DBD003D4A64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AD2D5016501DBD003D4A64 /* UIKit.framework */; };
 		80AD2D5316501DBD003D4A64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AD2D5216501DBD003D4A64 /* Foundation.framework */; };
 		80AD2D5516501DBD003D4A64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AD2D5416501DBD003D4A64 /* CoreGraphics.framework */; };
@@ -20,16 +24,20 @@
 		80AD2D6A16501DBD003D4A64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD2D6916501DBD003D4A64 /* ViewController.m */; };
 		80AD2D6D16501DBD003D4A64 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80AD2D6B16501DBD003D4A64 /* ViewController_iPhone.xib */; };
 		80AD2D7016501DBD003D4A64 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80AD2D6E16501DBD003D4A64 /* ViewController_iPad.xib */; };
-		80AD2D7916501EA8003D4A64 /* NPLSystemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD2D7816501EA8003D4A64 /* NPLSystemView.m */; };
 		80AD2D7B16501F3A003D4A64 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AD2D7A16501F3A003D4A64 /* QuartzCore.framework */; };
-		80AD2D7E165021F0003D4A64 /* NPLSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD2D7D165021F0003D4A64 /* NPLSystem.m */; };
-		80AD2D84165029FC003D4A64 /* NPTurtle.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD2D83165029FC003D4A64 /* NPTurtle.m */; };
-		80AD2D8716506255003D4A64 /* NPLSystemLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD2D8616506254003D4A64 /* NPLSystemLibrary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		807C5F97165851F600BF8CA1 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
-		807C5F98165851F600BF8CA1 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		808FB0B0166A7A080052EE69 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		808FB0B1166A7A080052EE69 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		808FB0B3166A7A080052EE69 /* NPLSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPLSystem.h; sourceTree = "<group>"; };
+		808FB0B4166A7A080052EE69 /* NPLSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPLSystem.m; sourceTree = "<group>"; };
+		808FB0B5166A7A080052EE69 /* NPLSystemLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPLSystemLibrary.h; sourceTree = "<group>"; };
+		808FB0B6166A7A080052EE69 /* NPLSystemLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPLSystemLibrary.m; sourceTree = "<group>"; };
+		808FB0B7166A7A080052EE69 /* NPLSystemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPLSystemView.h; sourceTree = "<group>"; };
+		808FB0B8166A7A080052EE69 /* NPLSystemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPLSystemView.m; sourceTree = "<group>"; };
+		808FB0B9166A7A080052EE69 /* NPTurtle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPTurtle.h; sourceTree = "<group>"; };
+		808FB0BA166A7A080052EE69 /* NPTurtle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPTurtle.m; sourceTree = "<group>"; };
 		80AD2D4C16501DBD003D4A64 /* Organik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Organik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80AD2D5016501DBD003D4A64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		80AD2D5216501DBD003D4A64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -47,15 +55,7 @@
 		80AD2D6916501DBD003D4A64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		80AD2D6C16501DBD003D4A64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		80AD2D6F16501DBD003D4A64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
-		80AD2D7716501EA8003D4A64 /* NPLSystemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPLSystemView.h; sourceTree = "<group>"; };
-		80AD2D7816501EA8003D4A64 /* NPLSystemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPLSystemView.m; sourceTree = "<group>"; };
 		80AD2D7A16501F3A003D4A64 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		80AD2D7C165021F0003D4A64 /* NPLSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPLSystem.h; sourceTree = "<group>"; };
-		80AD2D7D165021F0003D4A64 /* NPLSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPLSystem.m; sourceTree = "<group>"; };
-		80AD2D82165029FC003D4A64 /* NPTurtle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPTurtle.h; sourceTree = "<group>"; };
-		80AD2D83165029FC003D4A64 /* NPTurtle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPTurtle.m; sourceTree = "<group>"; };
-		80AD2D8516506254003D4A64 /* NPLSystemLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPLSystemLibrary.h; sourceTree = "<group>"; };
-		80AD2D8616506254003D4A64 /* NPLSystemLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPLSystemLibrary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +73,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		808FB0A7166A79AD0052EE69 /* IB */ = {
+			isa = PBXGroup;
+			children = (
+				80AD2D6B16501DBD003D4A64 /* ViewController_iPhone.xib */,
+				80AD2D6E16501DBD003D4A64 /* ViewController_iPad.xib */,
+			);
+			name = IB;
+			sourceTree = "<group>";
+		};
+		808FB0AF166A7A080052EE69 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				808FB0B0166A7A080052EE69 /* UIColor+Random.h */,
+				808FB0B1166A7A080052EE69 /* UIColor+Random.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		808FB0B2166A7A080052EE69 /* NPLSystem */ = {
+			isa = PBXGroup;
+			children = (
+				808FB0B3166A7A080052EE69 /* NPLSystem.h */,
+				808FB0B4166A7A080052EE69 /* NPLSystem.m */,
+				808FB0B5166A7A080052EE69 /* NPLSystemLibrary.h */,
+				808FB0B6166A7A080052EE69 /* NPLSystemLibrary.m */,
+				808FB0B7166A7A080052EE69 /* NPLSystemView.h */,
+				808FB0B8166A7A080052EE69 /* NPLSystemView.m */,
+				808FB0B9166A7A080052EE69 /* NPTurtle.h */,
+				808FB0BA166A7A080052EE69 /* NPTurtle.m */,
+			);
+			path = NPLSystem;
+			sourceTree = "<group>";
+		};
 		80AD2D4116501DBD003D4A64 = {
 			isa = PBXGroup;
 			children = (
@@ -104,15 +137,13 @@
 		80AD2D5616501DBD003D4A64 /* Organik */ = {
 			isa = PBXGroup;
 			children = (
-				80AD2D7616501E41003D4A64 /* NPLSystem */,
+				808FB0AF166A7A080052EE69 /* Categories */,
+				808FB0B2166A7A080052EE69 /* NPLSystem */,
+				808FB0A7166A79AD0052EE69 /* IB */,
 				80AD2D5F16501DBD003D4A64 /* AppDelegate.h */,
 				80AD2D6016501DBD003D4A64 /* AppDelegate.m */,
 				80AD2D6816501DBD003D4A64 /* ViewController.h */,
 				80AD2D6916501DBD003D4A64 /* ViewController.m */,
-				80AD2D6B16501DBD003D4A64 /* ViewController_iPhone.xib */,
-				80AD2D6E16501DBD003D4A64 /* ViewController_iPad.xib */,
-				807C5F97165851F600BF8CA1 /* UIColor+Random.h */,
-				807C5F98165851F600BF8CA1 /* UIColor+Random.m */,
 				80AD2D5716501DBD003D4A64 /* Supporting Files */,
 			);
 			path = Organik;
@@ -130,21 +161,6 @@
 				80AD2D6616501DBD003D4A64 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		80AD2D7616501E41003D4A64 /* NPLSystem */ = {
-			isa = PBXGroup;
-			children = (
-				80AD2D7716501EA8003D4A64 /* NPLSystemView.h */,
-				80AD2D7816501EA8003D4A64 /* NPLSystemView.m */,
-				80AD2D7C165021F0003D4A64 /* NPLSystem.h */,
-				80AD2D7D165021F0003D4A64 /* NPLSystem.m */,
-				80AD2D82165029FC003D4A64 /* NPTurtle.h */,
-				80AD2D83165029FC003D4A64 /* NPTurtle.m */,
-				80AD2D8516506254003D4A64 /* NPLSystemLibrary.h */,
-				80AD2D8616506254003D4A64 /* NPLSystemLibrary.m */,
-			);
-			name = NPLSystem;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,11 +233,11 @@
 				80AD2D5D16501DBD003D4A64 /* main.m in Sources */,
 				80AD2D6116501DBD003D4A64 /* AppDelegate.m in Sources */,
 				80AD2D6A16501DBD003D4A64 /* ViewController.m in Sources */,
-				80AD2D7916501EA8003D4A64 /* NPLSystemView.m in Sources */,
-				80AD2D7E165021F0003D4A64 /* NPLSystem.m in Sources */,
-				80AD2D84165029FC003D4A64 /* NPTurtle.m in Sources */,
-				80AD2D8716506255003D4A64 /* NPLSystemLibrary.m in Sources */,
-				807C5F99165851F600BF8CA1 /* UIColor+Random.m in Sources */,
+				808FB0BB166A7A080052EE69 /* UIColor+Random.m in Sources */,
+				808FB0BC166A7A080052EE69 /* NPLSystem.m in Sources */,
+				808FB0BD166A7A080052EE69 /* NPLSystemLibrary.m in Sources */,
+				808FB0BE166A7A080052EE69 /* NPLSystemView.m in Sources */,
+				808FB0BF166A7A080052EE69 /* NPTurtle.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
