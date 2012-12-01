@@ -1,4 +1,4 @@
-# Organik - L-System Drawing
+Organik - L-System Drawing
 ==========================
 
 NPLSystem and NPTurtle are the foundation of Organik.  Together they manage iterations of an L-System and drawing respectively.
