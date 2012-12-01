@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		807C5F99165851F600BF8CA1 /* UIColor+Random.m in Sources */ = {isa = PBXBuildFile; fileRef = 807C5F98165851F600BF8CA1 /* UIColor+Random.m */; };
+		80AD2D5116501DBD003D4A64 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AD2D5016501DBD003D4A64 /* UIKit.framework */; };
+		80AD2D5316501DBD003D4A64 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AD2D5216501DBD003D4A64 /* Foundation.framework */; };
+		80AD2D5516501DBD003D4A64 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AD2D5416501DBD003D4A64 /* CoreGraphics.framework */; };
+		80AD2D5B16501DBD003D4A64 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 80AD2D5916501DBD003D4A64 /* InfoPlist.strings */; };
+		80AD2D5D16501DBD003D4A64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD2D5C16501DBD003D4A64 /* main.m */; };
+		80AD2D6116501DBD003D4A64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD2D6016501DBD003D4A64 /* AppDelegate.m */; };
+		80AD2D6316501DBD003D4A64 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 80AD2D6216501DBD003D4A64 /* Default.png */; };
+		80AD2D6516501DBD003D4A64 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80AD2D6416501DBD003D4A64 /* Default@2x.png */; };
+		80AD2D6716501DBD003D4A64 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80AD2D6616501DBD003D4A64 /* Default-568h@2x.png */; };
+		80AD2D6A16501DBD003D4A64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD2D6916501DBD003D4A64 /* ViewController.m */; };
+		80AD2D6D16501DBD003D4A64 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80AD2D6B16501DBD003D4A64 /* ViewController_iPhone.xib */; };
+		80AD2D7016501DBD003D4A64 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80AD2D6E16501DBD003D4A64 /* ViewController_iPad.xib */; };
+		80AD2D7916501EA8003D4A64 /* NPLSystemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD2D7816501EA8003D4A64 /* NPLSystemView.m */; };
+		80AD2D7B16501F3A003D4A64 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AD2D7A16501F3A003D4A64 /* QuartzCore.framework */; };
+		80AD2D7E165021F0003D4A64 /* NPLSystem.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD2D7D165021F0003D4A64 /* NPLSystem.m */; };
+		80AD2D84165029FC003D4A64 /* NPTurtle.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD2D83165029FC003D4A64 /* NPTurtle.m */; };
+		80AD2D8716506255003D4A64 /* NPLSystemLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD2D8616506254003D4A64 /* NPLSystemLibrary.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		807C5F97165851F600BF8CA1 /* UIColor+Random.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Random.h"; sourceTree = "<group>"; };
+		807C5F98165851F600BF8CA1 /* UIColor+Random.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Random.m"; sourceTree = "<group>"; };
+		80AD2D4C16501DBD003D4A64 /* Organik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Organik.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80AD2D5016501DBD003D4A64 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		80AD2D5216501DBD003D4A64 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		80AD2D5416501DBD003D4A64 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		80AD2D5816501DBD003D4A64 /* Organik-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Organik-Info.plist"; sourceTree = "<group>"; };
+		80AD2D5A16501DBD003D4A64 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		80AD2D5C16501DBD003D4A64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		80AD2D5E16501DBD003D4A64 /* Organik-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Organik-Prefix.pch"; sourceTree = "<group>"; };
+		80AD2D5F16501DBD003D4A64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		80AD2D6016501DBD003D4A64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		80AD2D6216501DBD003D4A64 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		80AD2D6416501DBD003D4A64 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		80AD2D6616501DBD003D4A64 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		80AD2D6816501DBD003D4A64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		80AD2D6916501DBD003D4A64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		80AD2D6C16501DBD003D4A64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
+		80AD2D6F16501DBD003D4A64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		80AD2D7716501EA8003D4A64 /* NPLSystemView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPLSystemView.h; sourceTree = "<group>"; };
+		80AD2D7816501EA8003D4A64 /* NPLSystemView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPLSystemView.m; sourceTree = "<group>"; };
+		80AD2D7A16501F3A003D4A64 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		80AD2D7C165021F0003D4A64 /* NPLSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPLSystem.h; sourceTree = "<group>"; };
+		80AD2D7D165021F0003D4A64 /* NPLSystem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPLSystem.m; sourceTree = "<group>"; };
+		80AD2D82165029FC003D4A64 /* NPTurtle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPTurtle.h; sourceTree = "<group>"; };
+		80AD2D83165029FC003D4A64 /* NPTurtle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPTurtle.m; sourceTree = "<group>"; };
+		80AD2D8516506254003D4A64 /* NPLSystemLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPLSystemLibrary.h; sourceTree = "<group>"; };
+		80AD2D8616506254003D4A64 /* NPLSystemLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPLSystemLibrary.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80AD2D4916501DBD003D4A64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AD2D7B16501F3A003D4A64 /* QuartzCore.framework in Frameworks */,
+				80AD2D5116501DBD003D4A64 /* UIKit.framework in Frameworks */,
+				80AD2D5316501DBD003D4A64 /* Foundation.framework in Frameworks */,
+				80AD2D5516501DBD003D4A64 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80AD2D4116501DBD003D4A64 = {
+			isa = PBXGroup;
+			children = (
+				80AD2D5616501DBD003D4A64 /* Organik */,
+				80AD2D4F16501DBD003D4A64 /* Frameworks */,
+				80AD2D4D16501DBD003D4A64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80AD2D4D16501DBD003D4A64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80AD2D4C16501DBD003D4A64 /* Organik.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80AD2D4F16501DBD003D4A64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80AD2D7A16501F3A003D4A64 /* QuartzCore.framework */,
+				80AD2D5016501DBD003D4A64 /* UIKit.framework */,
+				80AD2D5216501DBD003D4A64 /* Foundation.framework */,
+				80AD2D5416501DBD003D4A64 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		80AD2D5616501DBD003D4A64 /* Organik */ = {
+			isa = PBXGroup;
+			children = (
+				80AD2D7616501E41003D4A64 /* NPLSystem */,
+				80AD2D5F16501DBD003D4A64 /* AppDelegate.h */,
+				80AD2D6016501DBD003D4A64 /* AppDelegate.m */,
+				80AD2D6816501DBD003D4A64 /* ViewController.h */,
+				80AD2D6916501DBD003D4A64 /* ViewController.m */,
+				80AD2D6B16501DBD003D4A64 /* ViewController_iPhone.xib */,
+				80AD2D6E16501DBD003D4A64 /* ViewController_iPad.xib */,
+				807C5F97165851F600BF8CA1 /* UIColor+Random.h */,
+				807C5F98165851F600BF8CA1 /* UIColor+Random.m */,
+				80AD2D5716501DBD003D4A64 /* Supporting Files */,
+			);
+			path = Organik;
+			sourceTree = "<group>";
+		};
+		80AD2D5716501DBD003D4A64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				80AD2D5816501DBD003D4A64 /* Organik-Info.plist */,
+				80AD2D5916501DBD003D4A64 /* InfoPlist.strings */,
+				80AD2D5C16501DBD003D4A64 /* main.m */,
+				80AD2D5E16501DBD003D4A64 /* Organik-Prefix.pch */,
+				80AD2D6216501DBD003D4A64 /* Default.png */,
+				80AD2D6416501DBD003D4A64 /* Default@2x.png */,
+				80AD2D6616501DBD003D4A64 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		80AD2D7616501E41003D4A64 /* NPLSystem */ = {
+			isa = PBXGroup;
+			children = (
+				80AD2D7716501EA8003D4A64 /* NPLSystemView.h */,
+				80AD2D7816501EA8003D4A64 /* NPLSystemView.m */,
+				80AD2D7C165021F0003D4A64 /* NPLSystem.h */,
+				80AD2D7D165021F0003D4A64 /* NPLSystem.m */,
+				80AD2D82165029FC003D4A64 /* NPTurtle.h */,
+				80AD2D83165029FC003D4A64 /* NPTurtle.m */,
+				80AD2D8516506254003D4A64 /* NPLSystemLibrary.h */,
+				80AD2D8616506254003D4A64 /* NPLSystemLibrary.m */,
+			);
+			name = NPLSystem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80AD2D4B16501DBD003D4A64 /* Organik */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80AD2D7316501DBD003D4A64 /* Build configuration list for PBXNativeTarget "Organik" */;
+			buildPhases = (
+				80AD2D4816501DBD003D4A64 /* Sources */,
+				80AD2D4916501DBD003D4A64 /* Frameworks */,
+				80AD2D4A16501DBD003D4A64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Organik;
+			productName = Organik;
+			productReference = 80AD2D4C16501DBD003D4A64 /* Organik.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80AD2D4316501DBD003D4A64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Nebojsa Petrovic";
+			};
+			buildConfigurationList = 80AD2D4616501DBD003D4A64 /* Build configuration list for PBXProject "Organik" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 80AD2D4116501DBD003D4A64;
+			productRefGroup = 80AD2D4D16501DBD003D4A64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80AD2D4B16501DBD003D4A64 /* Organik */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80AD2D4A16501DBD003D4A64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AD2D5B16501DBD003D4A64 /* InfoPlist.strings in Resources */,
+				80AD2D6316501DBD003D4A64 /* Default.png in Resources */,
+				80AD2D6516501DBD003D4A64 /* Default@2x.png in Resources */,
+				80AD2D6716501DBD003D4A64 /* Default-568h@2x.png in Resources */,
+				80AD2D6D16501DBD003D4A64 /* ViewController_iPhone.xib in Resources */,
+				80AD2D7016501DBD003D4A64 /* ViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80AD2D4816501DBD003D4A64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80AD2D5D16501DBD003D4A64 /* main.m in Sources */,
+				80AD2D6116501DBD003D4A64 /* AppDelegate.m in Sources */,
+				80AD2D6A16501DBD003D4A64 /* ViewController.m in Sources */,
+				80AD2D7916501EA8003D4A64 /* NPLSystemView.m in Sources */,
+				80AD2D7E165021F0003D4A64 /* NPLSystem.m in Sources */,
+				80AD2D84165029FC003D4A64 /* NPTurtle.m in Sources */,
+				80AD2D8716506255003D4A64 /* NPLSystemLibrary.m in Sources */,
+				807C5F99165851F600BF8CA1 /* UIColor+Random.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		80AD2D5916501DBD003D4A64 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AD2D5A16501DBD003D4A64 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		80AD2D6B16501DBD003D4A64 /* ViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AD2D6C16501DBD003D4A64 /* en */,
+			);
+			name = ViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		80AD2D6E16501DBD003D4A64 /* ViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80AD2D6F16501DBD003D4A64 /* en */,
+			);
+			name = ViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80AD2D7116501DBD003D4A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80AD2D7216501DBD003D4A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80AD2D7416501DBD003D4A64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Organik/Organik-Prefix.pch";
+				INFOPLIST_FILE = "Organik/Organik-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		80AD2D7516501DBD003D4A64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Organik/Organik-Prefix.pch";
+				INFOPLIST_FILE = "Organik/Organik-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80AD2D4616501DBD003D4A64 /* Build configuration list for PBXProject "Organik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AD2D7116501DBD003D4A64 /* Debug */,
+				80AD2D7216501DBD003D4A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80AD2D7316501DBD003D4A64 /* Build configuration list for PBXNativeTarget "Organik" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80AD2D7416501DBD003D4A64 /* Debug */,
+				80AD2D7516501DBD003D4A64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80AD2D4316501DBD003D4A64 /* Project object */;
+}
