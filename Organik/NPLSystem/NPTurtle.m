@@ -28,13 +28,6 @@ const NSString *kPositionKey = @"position";
     return self;
 }
 
-- (void)dealloc {
-    [_stack release];
-    [_path release];
-    
-    [super dealloc];
-}
-
 + (NPTurtle *)turtleAtPosition:(CGPoint)position direction:(CGPoint)direction {
     NPTurtle *turtle = [[NPTurtle alloc] init];
     turtle.position = position;
@@ -42,7 +35,7 @@ const NSString *kPositionKey = @"position";
     
     [turtle.path moveToPoint:turtle.position];
     
-    return [turtle autorelease];
+    return turtle;
 }
 
 - (void)resetToPosition:(CGPoint)position direction:(CGPoint)direction {
@@ -124,6 +117,5 @@ const NSString *kPositionKey = @"position";
         }
     }
 }
-
 
 @end

@@ -324,6 +324,7 @@
 		80AD2D7416501DBD003D4A64 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Organik/Organik-Prefix.pch";
 				INFOPLIST_FILE = "Organik/Organik-Info.plist";
@@ -335,6 +336,7 @@
 		80AD2D7516501DBD003D4A64 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Organik/Organik-Prefix.pch";
 				INFOPLIST_FILE = "Organik/Organik-Info.plist";

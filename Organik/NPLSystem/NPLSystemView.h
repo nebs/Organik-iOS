@@ -14,12 +14,12 @@
 @interface NPLSystemView : UIView
 
 // The shared delegate for the system and turtle, which is also a representation of a given L-System
-@property (nonatomic, retain) NPLSystemRepresentation *systemDelegate;
+@property (nonatomic, strong) NPLSystemRepresentation *systemDelegate;
 
 // The L-System
-@property (nonatomic, retain) NPLSystem *lSystem;
+@property (nonatomic, strong) NPLSystem *lSystem;
 
 // The turtle
-@property (nonatomic, retain) NPTurtle *turtle;
+@property (nonatomic, strong) NPTurtle *turtle;
 
 @end

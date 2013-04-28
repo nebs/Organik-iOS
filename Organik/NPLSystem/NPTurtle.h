@@ -16,12 +16,12 @@
 
 @interface NPTurtle : NSObject
 
-@property (nonatomic, assign) id<NPTurtleDelegate>delegate;
+@property (nonatomic, weak) id<NPTurtleDelegate>delegate;
 
 @property (nonatomic, assign) CGPoint direction;
 @property (nonatomic, assign) CGPoint position;
-@property (nonatomic, retain) NSMutableArray *stack;
-@property (nonatomic, retain) UIBezierPath *path;
+@property (nonatomic, strong) NSMutableArray *stack;
+@property (nonatomic, strong) UIBezierPath *path;
 
 /* 
  Initialize a new turtle and place it at the given position pointing in the given direction.

@@ -11,12 +11,9 @@
 #import "NPLSystemLibrary.h"
 #import <QuartzCore/QuartzCore.h>
 
-@implementation NPLSystemView {
+@implementation NPLSystemView 
 
-}
-
-- (id)initWithFrame:(CGRect)frame
-{
+- (id)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
         // Initialization code
@@ -39,14 +36,6 @@
         
     }
     return self;
-}
-
-- (void)dealloc {
-    [_systemDelegate release];
-    [_turtle release];
-    [_lSystem release];
-    
-    [super dealloc];
 }
 
 - (void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
@@ -95,6 +84,5 @@
     [self.turtle tracePathWithSymbols:symbols];
     [self animateTurtle:self.turtle withDuration:timePerIteration * numIterations];
 }
-
 
 @end

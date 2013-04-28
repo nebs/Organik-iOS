@@ -9,26 +9,13 @@
 #import "ViewController.h"
 #import "NPLSystemView.h"
 
-@interface ViewController ()
-
-@end
-
 @implementation ViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
-    
-    NPLSystemView *lsv = [[[NPLSystemView alloc] initWithFrame:self.view.bounds] autorelease];
+    NPLSystemView *lsv = [[NPLSystemView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:lsv];
-    
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
 }
 
 @end

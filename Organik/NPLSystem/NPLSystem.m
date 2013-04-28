@@ -14,17 +14,10 @@
     self = [super init];
     if (self) {
         self.axiom = @"";
-        self.symbolIterations = nil;
     }
     return self;
 }
 
-- (void)dealloc {
-    [_axiom release];
-    [_symbolIterations release];
-    
-    [super dealloc];
-}
 
 + (NPLSystem *)systemWithDelegate:(id<NPLSystemDelegate>)delegate {
     NPLSystem *system = [[NPLSystem alloc] init];
@@ -35,12 +28,11 @@
         system.axiom = [system.delegate axiomForLSystem:system];
     }
     
-    return [system autorelease];
+    return system;
 }
 
 - (void)setAxiom:(NSString *)axiom {
     if (_axiom) {
-        [_axiom release];
         _axiom = nil;
     }
     
@@ -49,7 +41,6 @@
     // Clear the iterations and add this axiom as the first iteration
     if (self.symbolIterations) {
         [self.symbolIterations removeAllObjects];
-        [self.symbolIterations release];
         self.symbolIterations = nil;
     }
     

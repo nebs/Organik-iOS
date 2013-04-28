@@ -25,8 +25,6 @@
 }
 @end
 
-
-
 /************************************************
  ***** SIMPLE TREE ******************************
  ************************************************/
@@ -34,7 +32,7 @@
 
 + (NPLSystemSimpleTree *)simpleTree {
     NPLSystemSimpleTree *simpleTree = [[NPLSystemSimpleTree alloc] init];
-    return [simpleTree autorelease];
+    return simpleTree;
 }
 
 #pragma mark - NPLSystemDelegate
@@ -68,8 +66,6 @@
 
 @end
 
-
-
 /************************************************
  ***** RANDOM TREE ******************************
  ************************************************/
@@ -78,7 +74,7 @@
 
 + (NPLSystemRandomTree *)randomTree {
     NPLSystemRandomTree *randomTree = [[NPLSystemRandomTree alloc] init];
-    return [randomTree autorelease];
+    return randomTree;
 }
 
 #pragma mark - NPLSystemDelegate

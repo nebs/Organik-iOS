@@ -17,12 +17,12 @@
 
 @interface NPLSystem : NSObject
 
-@property (nonatomic, assign) id<NPLSystemDelegate>delegate;
+@property (nonatomic, weak) id<NPLSystemDelegate>delegate;
 
 @property (nonatomic, copy) NSString *axiom;
 
 // Holds all the symbol iteration results
-@property (nonatomic, retain) NSMutableArray *symbolIterations;
+@property (nonatomic, strong) NSMutableArray *symbolIterations;
 
 + (NPLSystem *)systemWithDelegate:(id<NPLSystemDelegate>)delegate;
 
