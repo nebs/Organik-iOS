@@ -12,7 +12,7 @@ L-System?
 ---------
 
 L-System is short for Lindenmayer system.  
-Read more on the [a link](https://en.wikipedia.org/wiki/L-system "L-System wikipedia page.")
+Read more about L-Systems on [wikipedia](https://en.wikipedia.org/wiki/L-system)
 
 
 Organik Files
