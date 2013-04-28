@@ -7,7 +7,6 @@ Organik can draw randomly generated realistic "trees" in core graphics.  But mor
 
 ![Alt text](/Screenshots/organik1.png "Screenshot 1")
 ![Alt text](/Screenshots/organik2.png "Screenshot 2")
-![Alt text](/Screenshots/organik3.png "Screenshot 3")
 
 L-System?
 ---------
