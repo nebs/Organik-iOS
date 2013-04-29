@@ -25,6 +25,7 @@
 		80AD2D6D16501DBD003D4A64 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80AD2D6B16501DBD003D4A64 /* ViewController_iPhone.xib */; };
 		80AD2D7016501DBD003D4A64 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80AD2D6E16501DBD003D4A64 /* ViewController_iPad.xib */; };
 		80AD2D7B16501F3A003D4A64 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AD2D7A16501F3A003D4A64 /* QuartzCore.framework */; };
+		80BE87E4172E3BB6003A3BD8 /* NPTurtleState.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BE87E3172E3BB6003A3BD8 /* NPTurtleState.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,8 @@
 		80AD2D6C16501DBD003D4A64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		80AD2D6F16501DBD003D4A64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		80AD2D7A16501F3A003D4A64 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		80BE87E2172E3BB6003A3BD8 /* NPTurtleState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPTurtleState.h; sourceTree = "<group>"; };
+		80BE87E3172E3BB6003A3BD8 /* NPTurtleState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPTurtleState.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +105,8 @@
 				808FB0B8166A7A080052EE69 /* NPLSystemView.m */,
 				808FB0B9166A7A080052EE69 /* NPTurtle.h */,
 				808FB0BA166A7A080052EE69 /* NPTurtle.m */,
+				80BE87E2172E3BB6003A3BD8 /* NPTurtleState.h */,
+				80BE87E3172E3BB6003A3BD8 /* NPTurtleState.m */,
 			);
 			path = NPLSystem;
 			sourceTree = "<group>";
@@ -238,6 +243,7 @@
 				808FB0BD166A7A080052EE69 /* NPLSystemLibrary.m in Sources */,
 				808FB0BE166A7A080052EE69 /* NPLSystemView.m in Sources */,
 				808FB0BF166A7A080052EE69 /* NPTurtle.m in Sources */,
+				80BE87E4172E3BB6003A3BD8 /* NPTurtleState.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

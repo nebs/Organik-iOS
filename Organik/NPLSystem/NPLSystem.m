@@ -18,9 +18,8 @@
     return self;
 }
 
-
 + (NPLSystem *)systemWithDelegate:(id<NPLSystemDelegate>)delegate {
-    NPLSystem *system = [[NPLSystem alloc] init];
+    NPLSystem *system = [NPLSystem new];
     [system setDelegate:delegate];
     
     // Ask the delegate for the axiom
@@ -108,6 +107,5 @@
         [self step];
     }
 }
-
 
 @end

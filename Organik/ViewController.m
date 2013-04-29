@@ -11,8 +11,7 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     NPLSystemView *lsv = [[NPLSystemView alloc] initWithFrame:self.view.bounds];
     [self.view addSubview:lsv];

@@ -18,7 +18,6 @@
 @interface NPLSystem : NSObject
 
 @property (nonatomic, weak) id<NPLSystemDelegate>delegate;
-
 @property (nonatomic, copy) NSString *axiom;
 
 // Holds all the symbol iteration results

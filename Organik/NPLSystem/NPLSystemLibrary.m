@@ -31,7 +31,7 @@
 @implementation NPLSystemSimpleTree
 
 + (NPLSystemSimpleTree *)simpleTree {
-    NPLSystemSimpleTree *simpleTree = [[NPLSystemSimpleTree alloc] init];
+    NPLSystemSimpleTree *simpleTree = [NPLSystemSimpleTree new];
     return simpleTree;
 }
 
@@ -73,7 +73,7 @@
 @implementation NPLSystemRandomTree
 
 + (NPLSystemRandomTree *)randomTree {
-    NPLSystemRandomTree *randomTree = [[NPLSystemRandomTree alloc] init];
+    NPLSystemRandomTree *randomTree = [NPLSystemRandomTree new];
     return randomTree;
 }
 

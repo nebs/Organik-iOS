@@ -7,11 +7,9 @@
 //
 
 #import "NPTurtle.h"
+#import "NPTurtleState.h"
 
 #define deg2rad(degrees) degrees * M_PI / 180.0f
-
-const NSString *kDirectionKey = @"direction";
-const NSString *kPositionKey = @"position";
 
 @implementation NPTurtle
 
@@ -29,7 +27,7 @@ const NSString *kPositionKey = @"position";
 }
 
 + (NPTurtle *)turtleAtPosition:(CGPoint)position direction:(CGPoint)direction {
-    NPTurtle *turtle = [[NPTurtle alloc] init];
+    NPTurtle *turtle = [NPTurtle new];
     turtle.position = position;
     turtle.direction = direction;
     
@@ -60,6 +58,7 @@ const NSString *kPositionKey = @"position";
     
     self.direction = newDirection;
 }
+
 - (void)moveByUnits:(CGFloat)units {
     CGPoint newPosition = self.position;
     
@@ -70,26 +69,24 @@ const NSString *kPositionKey = @"position";
 
     [self.path addLineToPoint:self.position];
 }
+
 - (void)pushState {
-    NSValue *storedDirection = [NSValue valueWithCGPoint:self.direction];
-    NSValue *storedPosition = [NSValue valueWithCGPoint:self.position];
-    
-    NSDictionary *storedState = [NSDictionary dictionaryWithObjectsAndKeys:storedDirection, kDirectionKey, storedPosition, kPositionKey, nil];
-    [self.stack addObject:storedState];
+    NPTurtleState *state = [NPTurtleState stateWithDirection:self.direction
+                                                    position:self.position];
+    [self.stack addObject:state];
 }
+
 - (void)popState {
     // Get the last element in the stack
-    NSDictionary *storedState = [self.stack lastObject];
+    NPTurtleState *storedState = [self.stack lastObject];
     
     if (!storedState) {
         return;
     }
     
     // Restore this turtle's properties
-    NSValue *storedDirection = [storedState objectForKey:kDirectionKey];
-    NSValue *storedPosition = [storedState objectForKey:kPositionKey];
-    self.direction = [storedDirection CGPointValue];
-    self.position = [storedPosition CGPointValue];
+    self.direction = storedState.direction;
+    self.position = storedState.position;
     
     [self.path moveToPoint:self.position];
     

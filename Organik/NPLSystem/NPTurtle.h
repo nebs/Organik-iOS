@@ -17,7 +17,6 @@
 @interface NPTurtle : NSObject
 
 @property (nonatomic, weak) id<NPTurtleDelegate>delegate;
-
 @property (nonatomic, assign) CGPoint direction;
 @property (nonatomic, assign) CGPoint position;
 @property (nonatomic, strong) NSMutableArray *stack;
