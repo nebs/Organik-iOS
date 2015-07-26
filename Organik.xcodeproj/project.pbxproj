@@ -22,8 +22,6 @@
 		80AD2D6516501DBD003D4A64 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80AD2D6416501DBD003D4A64 /* Default@2x.png */; };
 		80AD2D6716501DBD003D4A64 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 80AD2D6616501DBD003D4A64 /* Default-568h@2x.png */; };
 		80AD2D6A16501DBD003D4A64 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 80AD2D6916501DBD003D4A64 /* ViewController.m */; };
-		80AD2D6D16501DBD003D4A64 /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80AD2D6B16501DBD003D4A64 /* ViewController_iPhone.xib */; };
-		80AD2D7016501DBD003D4A64 /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 80AD2D6E16501DBD003D4A64 /* ViewController_iPad.xib */; };
 		80AD2D7B16501F3A003D4A64 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80AD2D7A16501F3A003D4A64 /* QuartzCore.framework */; };
 		80BE87E4172E3BB6003A3BD8 /* NPTurtleState.m in Sources */ = {isa = PBXBuildFile; fileRef = 80BE87E3172E3BB6003A3BD8 /* NPTurtleState.m */; };
 /* End PBXBuildFile section */
@@ -54,8 +52,6 @@
 		80AD2D6616501DBD003D4A64 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		80AD2D6816501DBD003D4A64 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		80AD2D6916501DBD003D4A64 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		80AD2D6C16501DBD003D4A64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
-		80AD2D6F16501DBD003D4A64 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
 		80AD2D7A16501F3A003D4A64 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		80BE87E2172E3BB6003A3BD8 /* NPTurtleState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NPTurtleState.h; sourceTree = "<group>"; };
 		80BE87E3172E3BB6003A3BD8 /* NPTurtleState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NPTurtleState.m; sourceTree = "<group>"; };
@@ -76,15 +72,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		808FB0A7166A79AD0052EE69 /* IB */ = {
-			isa = PBXGroup;
-			children = (
-				80AD2D6B16501DBD003D4A64 /* ViewController_iPhone.xib */,
-				80AD2D6E16501DBD003D4A64 /* ViewController_iPad.xib */,
-			);
-			name = IB;
-			sourceTree = "<group>";
-		};
 		808FB0AF166A7A080052EE69 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,7 +131,6 @@
 			children = (
 				808FB0AF166A7A080052EE69 /* Categories */,
 				808FB0B2166A7A080052EE69 /* NPLSystem */,
-				808FB0A7166A79AD0052EE69 /* IB */,
 				80AD2D5F16501DBD003D4A64 /* AppDelegate.h */,
 				80AD2D6016501DBD003D4A64 /* AppDelegate.m */,
 				80AD2D6816501DBD003D4A64 /* ViewController.h */,
@@ -223,8 +209,6 @@
 				80AD2D6316501DBD003D4A64 /* Default.png in Resources */,
 				80AD2D6516501DBD003D4A64 /* Default@2x.png in Resources */,
 				80AD2D6716501DBD003D4A64 /* Default-568h@2x.png in Resources */,
-				80AD2D6D16501DBD003D4A64 /* ViewController_iPhone.xib in Resources */,
-				80AD2D7016501DBD003D4A64 /* ViewController_iPad.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,22 +240,6 @@
 				80AD2D5A16501DBD003D4A64 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		80AD2D6B16501DBD003D4A64 /* ViewController_iPhone.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80AD2D6C16501DBD003D4A64 /* en */,
-			);
-			name = ViewController_iPhone.xib;
-			sourceTree = "<group>";
-		};
-		80AD2D6E16501DBD003D4A64 /* ViewController_iPad.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				80AD2D6F16501DBD003D4A64 /* en */,
-			);
-			name = ViewController_iPad.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -334,7 +302,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Organik/Organik-Prefix.pch";
 				INFOPLIST_FILE = "Organik/Organik-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -346,7 +316,9 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Organik/Organik-Prefix.pch";
 				INFOPLIST_FILE = "Organik/Organik-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
