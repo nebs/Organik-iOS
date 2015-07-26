@@ -5,13 +5,13 @@ Organik-iOS is a set of L-System drawing and management classes for iOS.  Includ
 
 Organik can draw randomly generated realistic "trees" in core graphics.  But more than that, it provides a generic set of classes which you can use to implement your own drawing using L-Systems.
 
-![Alt text](/Screenshots/organik1.png "Screenshot 1")
-![Alt text](/Screenshots/organik2.png "Screenshot 2")
+![Alt text](/demo1.gif "Demo 1")
+![Alt text](/demo2.gif "Demo 2")
 
 L-System?
 ---------
 
-L-System is short for Lindenmayer system.  
+L-System is short for Lindenmayer system.
 Read more about L-Systems on [wikipedia](https://en.wikipedia.org/wiki/L-system)
 
 
@@ -34,4 +34,4 @@ NPLSystem coordinates with its delegate to calculate the system iterations.
 NPTurtle coordinates with its delegate to create a path based on the NPLSystem iterations.
 NPLSystemView then uses the turtle's path to draw and animate the system on the screen.
 
-The delegate for both NPLSystem and NPTurtle are the same class in Organik (subclasses of NPLSystemRepresentation).  This allows you to define a complete L-System from rules and axiom to rendering in a simple and clean way.  
+The delegate for both NPLSystem and NPTurtle are the same class in Organik (subclasses of NPLSystemRepresentation).  This allows you to define a complete L-System from rules and axiom to rendering in a simple and clean way.
